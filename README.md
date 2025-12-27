@@ -38,4 +38,3 @@ npm start
 ```zsh
 npm run types
 ```
-
