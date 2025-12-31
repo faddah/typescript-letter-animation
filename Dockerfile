@@ -8,6 +8,7 @@ COPY package*.json ./
 # Install dependencies, skipping optional deps and all build scripts
 # This prevents native module compilation (bufferutil, utf-8-validate)
 RUN npm install --legacy-peer-deps --omit=optional
+RUN npm install -S @rollup/rollup-linux-arm64-gnu --save-optiona
 
 # Copy the rest of the application
 COPY . .
