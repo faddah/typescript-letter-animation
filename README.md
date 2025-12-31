@@ -1,6 +1,8 @@
 
 # Typing Letter Animation Using TypeScript
 
+[![Web Dev Simplified's (Kyle) Video on "Can I Create This Typing Animation Using TypeScript?"](http://i3.ytimg.com/vi/gWD0EJgBlYQ/hqdefault.jpg)](https://www.youtube.com/watch?v=gWD0EJgBlYQ)
+
 ## From **[Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)'s** instructional YouTube video, **"[Can I Create This Typing Animation Using TypeScript?](https://www.youtube.com/watch?v=gWD0EJgBlYQ)"**
 
 ### Before Anything Else, `cd` into this project directory and install all dependencies (or nothing will run) —
