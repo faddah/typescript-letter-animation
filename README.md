@@ -38,3 +38,47 @@ npm start
 ```zsh
 npm run types
 ```
+
+### This is now a Dockerized container
+
+#### To Build the Docker Image —
+
+```zsh
+docker build -t typescript-letter-animation .
+```
+
+#### To Run the Docker Container —
+
+```zsh
+docker run -d -p 5173:5173 --name typescript-letter-animation-container typescript-letter-animation
+```
+
+#### To see the logs of the running Vite server in the running Docker Container —”
+
+```zsh
+docker logs -f typescript-letter-animation-container
+```
+
+#### To SSH into the running Docker Container — 
+
+```zsh
+docker exec -it typescript-letter-animation-container /bin/bash
+```
+
+#### To Stop the Running Docker Container —
+
+```zsh
+docker stop typescript-letter-animation-container
+```
+
+#### To Remove the Stopped Docker Container —
+
+```zsh
+docker rm typescript-letter-animation-container
+```
+
+#### To Remove the Docker Image (helpful if you're about to rebuild the whole Docker Image) —
+
+```zsh
+docker rmi typescript-letter-animation
+```
